@@ -244,7 +244,7 @@ Unable to traverse the proxy, error code: 91
 - **超時保護**：設定 10 秒超時，防止無限期等待
 - **錯誤處理**：完整的錯誤檢查和資源釋放機制
 
-## 🧪 測試建議
+##  測試建議
 
 ### 測試 1：驗證匿名性
 ```bash
@@ -302,7 +302,7 @@ Successfully connected through the proxy to example.com:80
 4. **不是完整的匿名解決方案**：建議配合 Tor Browser 或 torsocks 使用
 5. **效能考量**：通過 Tor 的連接速度會較慢
 
-## 🐛 故障排除
+##  故障排除
 
 ### 問題：連接失敗 "connect: Connection refused"
 **解決方法：**
@@ -386,7 +386,7 @@ curl -I http://example.com --connect-timeout 5
 ```
 
 
-## 📚 相關資源
+##  相關資源
 
 - [Tor 專案官方網站](https://www.torproject.org/)
 - [SOCKS v4 協議規範](https://www.openssh.com/txt/socks4.protocol)
